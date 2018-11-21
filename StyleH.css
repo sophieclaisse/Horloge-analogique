@@ -15,9 +15,9 @@
     background-color: black;
     position: absolute;
     left: 50%;
-    top: 42%;
+    top: 26%;
     animation-timing-function: linear;
-    transform-origin: top left;
+    transform-origin: bottom;
 
 }
 
@@ -27,8 +27,8 @@
     background-color: darkred;
     position: absolute;
     right: 50%;
-    top: 42%;
-    transform-origin: top right;
+    top: 19%;
+    transform-origin: bottom;
     animation-timing-function: linear;
 }
 
@@ -38,8 +38,8 @@
     background-color: darkgreen;
     position: absolute;
     right: 50%;
-    top: 42%;
-    transform-origin: top;
+    top: 17.2%;
+    transform-origin: bottom;
     animation-timing-function: steps(60);
 
 }

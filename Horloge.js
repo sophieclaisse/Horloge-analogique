@@ -18,10 +18,9 @@ function time () {
     aiguilles();
 
     //COMPTER LES SECONDES EN FONCTION DE LA DATE
-    setTimeout(//function (){
-       time() , 1000);
-   // }, 1000);
-
+    setTimeout(function() {
+        time();
+    }, 1000);
 }
 
 function aiguilles(){
@@ -43,6 +42,6 @@ function aiguilles(){
 
     var Aheure= 360/12*hours;//(360degres/ 12 positions sur l'horloge)
     heures.style.transform= "rotate("+ Aheure+ "deg)";
-console.log(Aheure);
+    console.log(Aheure);
 }
 time();
