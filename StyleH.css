@@ -1,0 +1,47 @@
+
+
+.horloge {
+   background-image: url("background.jpg");
+     width: 626px;
+    height: 626px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#heures{
+    height:120px ;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    animation-timing-function: linear;
+    transform-origin: top left;
+
+}
+
+#minutes {
+    height: 170px;
+    width: 4px;
+    background-color: darkred;
+    position: absolute;
+    right: 50%;
+    top: 42%;
+    transform-origin: top right;
+    animation-timing-function: linear;
+}
+
+#secondes{
+    height: 190px;
+    width: 2px;
+    background-color: darkgreen;
+    position: absolute;
+    right: 50%;
+    top: 42%;
+    transform-origin: top;
+    animation-timing-function: steps(60);
+
+}
+
+
